@@ -11,22 +11,15 @@
     <h2>Select your favorite category to get started!</h2>
   </header>
   <div>
-    <ol> 
-      <button>
-    <li>Sports</li>
-      </button>
-      <button>
-      <li>Tech</li>
-      </button>
-    <button>
-      <li>People</li>
-      </button>
-      <button>
-      <li>Animals</li>
-    </button>
-    <button>
-      <li>Random Pun</li>
-      </button>
+    <form action="/category" method="POST">
+      <input type="radio" name="category" value="sports" checked>Male<br>
+      <input type="radio" name="category" value="animal">Female
+      <input type="radio" name="category" value="technology">
+      <input type="radio" name="category" value="people">
+      <input type="radio" name="category" value="random">
+      <input type="submit" value="Generate Pun">
+    </form>
+<!--     
   </ol>
    </div>
   </body>
