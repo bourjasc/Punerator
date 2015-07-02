@@ -1,0 +1,15 @@
+h1 {
+    text-shadow: 1.25px 1.25px #0F0F0A;
+}
+div {
+  background: turqoise;
+}
+h2 {
+    -moz-text-decoration-style: wavy;
+    text-decoration: underline;
+}
+
+body {
+  background-image: url(/images/restaurant.png);
+    background-repeat: repeat;
+}
