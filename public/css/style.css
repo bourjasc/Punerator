@@ -1,5 +1,25 @@
+<<<<<<< HEAD
 h1 {
     text-shadow: 1.25px 1.25px #0F0F0A;
+=======
+body {
+    background-image: url(/images/restaurant.png);
+   background-repeat: repeat;
+  
+  
+}
+
+h1 {
+    text-shadow: 1.25px 1.25px #0F0F0A;
+  text-align: center;
+  font: Comic Sans Ms;
+}
+
+h2 {
+  text-align: center;
+  font-family: "Comic Sans Ms"
+
+>>>>>>> 554b8c23b1a6f148d29335f6958f1532ef9a1fe5
 }
 div {
   background: turqoise;
@@ -9,7 +29,10 @@ h2 {
     text-decoration: underline;
 }
 
+<<<<<<< HEAD
 body {
   background-image: url(/images/restaurant.png);
     background-repeat: repeat;
 }
+=======
+>>>>>>> 554b8c23b1a6f148d29335f6958f1532ef9a1fe5
