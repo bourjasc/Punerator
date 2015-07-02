@@ -1,4 +1,4 @@
-require 'pry'
+# require 'pry'
 class Pun
   def initialize
     @puns = {:animals => ["I didn’t do it on porpoise",
@@ -136,7 +136,7 @@ class Pun
 "Yesterday I was on the computer, I couldn't find the Esc and I lost Ctrl.",
 "The cat took up computer lessons in hopes of mastering its grip on a mouse.",
       "My computer is so slow it hertz."]}
-end
+  end
   def choose_category(input)
     if input == 'sports'
       return @puns[:sports].sample
@@ -163,7 +163,9 @@ end
     end
   end
   
-  
-end 
+end
+
 test = Pun.new
-binding.pry
+test.choose_category('animal')
+
+# binding.pry

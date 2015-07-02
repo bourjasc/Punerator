@@ -8,7 +8,8 @@ class ApplicationController < Sinatra::Base
   end
   post '/category' do 
     pun = Pun.new
-    @result = Pun.choose_category(params[:category])
+    @result = pun.choose_category(params[:category])
     erb :result
+  end
 
 end
