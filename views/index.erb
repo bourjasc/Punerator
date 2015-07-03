@@ -11,22 +11,20 @@
     <h2>Select your favorite category to get started!</h2>
     <img id="center_image" src="http://efangelist.files.wordpress.com/2014/02/math-puns.jpg">
   </header>
- 
-  
-  
-  
   <div>
     <form id="buttons" action="/category" method="POST">
-      <input type="radio" name="category" value="sports">Sports<br>
-      <input type="radio" name="category" value="animal">Animal<br>
-      <input type="radio" name="category" value="technology">Technology<br>
-      <input type="radio" name="category" value="people">People<br>
-      <input type="radio" name="category" value="random">Random<br>
+      <input type="radio" name="category" value="sports"><h4 class="ayaan">Sports</h4><br>
+      <input type="radio" name="category" value="animal"><h4 class="ayaan">Animal</h4><br>
+      <input type="radio" name="category" value="technology"><h4 class="ayaan">Technology</h4><br>
+      <input type="radio" name="category" value="people"><h4 class="ayaan">People</h4><br>
+      <input type="radio" name="category" value="random"><h4 class="ayaan">Random</h4><br>
       <input type="submit" value="Generate Pun"><br>
     </form>  
+    <p>
     <% if @message %>
     <%= @message %>
     <% end %>
+    </p>
    </div>
   </body>
   
