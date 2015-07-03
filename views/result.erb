@@ -11,9 +11,15 @@
   <a id="more" href="http://bourjasc-pc-15-precollege-se1-chi-062215-1-108300.nitrousapp.com:3000">More Puns! </a>
 </head>
   
+  <form id="text_box"action="/text" method="post">
+    <input type="text" name="number">
+    <input type='hidden' name="message" value="<%=@result%>">
+    <input type='submit' value="Send Your Pun">
+  </form>
   
-<embed src="sound.mp3"
+  
+<!-- <embed src="sound.mp3"
        autostart="true"
        hidden="false"
        loop="false">
-</embed>
+</embed> -->

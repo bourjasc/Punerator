@@ -24,6 +24,9 @@
       <input type="radio" name="category" value="random">Random<br>
       <input type="submit" value="Generate Pun"><br>
     </form>  
+    <% if @message %>
+    <%= @message %>
+    <% end %>
    </div>
   </body>
   
