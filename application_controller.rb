@@ -14,7 +14,7 @@ class ApplicationController < Sinatra::Base
   end
   post '/text' do
     twilio(params[:number], params[:message])
-    @message = "Your pun has been pun-ted"
+    @message = "Your pun has been pun-ted to the phone number you provided!"
     erb :index
   end
   
